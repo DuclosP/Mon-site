@@ -6,58 +6,99 @@
   <link rel="stylesheet" href="css/styles.min.css">
   <title>Duclos Pierre  - Junior Front End Dev</title>
 </head>
-<body>
-  <!-- Le header du site avec -->
-  <header class="header">
-    <div class="header-nav-menu">
-      <div class="wrapper">
+<body class="index">
+  <!-- to top button -->
+  <a href="#header" class="to-top">
+    <div >
+    </div>
+  </a>
+  
+  <!-- Le header du site -->
+  <div class="bg-wrapper">
+    <header class="header" id="header">
+      <!-- side nav  -->
+      <div class="side-bar">
         <div class="logo">
-          <a href="#"><img src="media/img/mon-logo.png" alt="Logo Pierre Duclos"></a>
+          <a href="index.html"><img src="media/img/mon-logo.png" alt="Logo Pierre Duclos"></a>
         </div>
-        <nav class="main-nav">
-          <a href="folio.html">Portfolio</a>
-          <a href="#">Lien 2</a>
-          <a href="#">Lien 3</a>
+        <nav class="side-nav">
+          <a href="#about">à propos</a>
+          <a href="#folio">mes projets</a>
+          <a href="#comp">mes compétences</a>
         </nav>
       </div>
-    </div>
-    <div class="header-content wrapper">
-      <div class="title">
-        <h1>Duclos Pierre</h1>
+      <div class="header-nav-menu">
+        <div class="wrapper">
+          <nav class="main-nav">
+            <a href="folio.html">Portfolio</a>
+            <a href="comp.html">Compétences</a>
+          </nav>
+          <nav class="hide-nav">
+            <a href="#about">à propos</a>
+            <a href="#folio">mes projets</a>
+            <a href="#comp">mes compétences</a>
+          </nav>
+        </div>
       </div>
-      <div class="txt">
-        <p>junior front-end developer</p>
-        <p>Passionné par le développement web et le code</p>
+      <div class="header-content wrapper">
+        <div class="title">
+          <h1>Duclos Pierre</h1>
+        </div>
+        <div class="txt">
+          <p>junior front-end developer</p>
+          <p>Passionné par le développement web et le code</p>
+        </div>
       </div>
-    </div>
-  </header>
-  <main>
-    <!-- about me -->
-    <section class="about-me wrapper spacing">
-      <h2>A propos de moi</h2>
-      <div class="photo">
-        <img src="" alt="Une photo de Duclos Pierre">
-      </div>
-      <div class="about-txt">
-        <p>Bonjour, je m'appelle Pierre Duclos, J'ai 38 ans et</p>
-        <p>je suis passionné d'informatique et de nouvelles technologies.</p>
-        <p>j'ai découvert, il y a peu,  les joies du code et de la création de sites,</p>
-        <p>l'infinité de possibilité que nous offrent les languages html, css et javascript est sans réelle limite</p>
-        <p>Cette découverte c'est transformé en passion et je vais m'efforcé d'en faire mon metier</p>
-        <p>Bonne visite</p>
-      </div>
-    </section>
-    <!-- Portfolio -->
-    <section class="portfolio wrapper spacing">
-      <h2>Portfolio</h2>
-      <div class="exo-copy">
-        <h3>Exo copie de site web</h3>
-      </div>    
-      <div class="exo-newsletter">
-        <h3>Exo copie de newsletter</h3>
-      </div>
-    </section>
-  </main>
+    </header>
+    <main>
+      <!-- about me -->
+      <section class="me wrapper" id="about">
+        <div class="about-me">
+          <h2>A propos de moi</h2>
+          <div class="photo">
+            <img src="" alt="Une photo de Duclos Pierre">
+          </div>
+          <div class="about-txt">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, amet suscipit. Ad?</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quam aperiam autem omnis illum ea aliquid nam, harum officia nulla quo error quisquam sed inventore nisi tenetur qui veniam. Voluptas!</p>
+            <p>Lorem, ipsum.</p>
+        </div>
+        </div>
+      </section>
+      <!-- Portfolio -->
+      <section class="folio-bg" id="folio">
+        <div class="portfolio wrapper">
+          <h2>Portfolio</h2>
+          <div class="folio-title">
+            <div class="web">
+              <h3>Web dev</h3>
+              <a href="folio.html#web" target="#web">Voir plus</a>
+            </div>
+            <div class="news">
+              <h3>newsletter</h3>
+              <a href="folio.html#news" target="#web">Voir plus</a>
+            </div>
+          </div>
+    
+        </div>
+      </section>
+      <section class="comp-bg" id="comp">
+        <div class="comp-content wrapper">
+          <h2>Mes compétences</h2>
+          <a href="comp.html#css"><img src="media/img/logos/logocss100px.png" alt=""></a>
+          <a href="comp.html#sass"><img src="media/img/logos/logosass100px.png" alt=""></a>
+          <a href="comp.html#html"><img src="media/img/logos/logohtml100px.png" alt=""></a>
+          <a href="comp.html#wp"><img src="media/img/logos/logowp100px.png" alt=""></a>
+          <a href="comp.html#js"><img src="media/img/logos/logojs100px.png" alt=""></a>
+          <a href="comp.html#ts"><img src="media/img/logos/logots100px.png" alt=""></a>
+          <a href="comp.html#angular"><img src="media/img/logos/logoangular100px.png" alt=""></a>
+        </div>
+      </section>
+    </main>
+  </div>
   <footer>
     
   </footer>
