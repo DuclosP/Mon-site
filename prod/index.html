@@ -14,91 +14,98 @@
   </a>
   
   <!-- Le header du site -->
-  <div class="bg-wrapper">
-    <header class="header" id="header">
-      <!-- side nav  -->
-      <div class="side-bar">
-        <div class="logo">
-          <a href="index.html"><img src="media/img/mon-logo.png" alt="Logo Pierre Duclos"></a>
-        </div>
-        <nav class="side-nav">
+  <header class="header" id="header">
+    <!-- side nav  -->
+    <div class="side-bar">
+      <div class="logo">
+        <a href="index.html"><img src="media/img/mon-logo.png" alt="Logo Pierre Duclos"></a>
+      </div>
+      <nav class="side-nav">
+        <a href="#header" class="inner-main-nav side-active">Welcome</a>
+        <a href="#about" class="inner-main-nav">à propos</a>
+        <a href="#folio" class="inner-main-nav">mes projets</a>
+        <a href="#comp" class="inner-main-nav">mes compétences</a>
+      </nav>
+    </div>
+    <div class="header-nav-menu">
+      <div class="wrapper">
+        <nav class="main-nav">
+          <a href="folio.html">Portfolio</a>
+          <a href="comp.html">Compétences</a>
+        </nav>
+        <nav class="hide-nav">
           <a href="#about">à propos</a>
           <a href="#folio">mes projets</a>
           <a href="#comp">mes compétences</a>
         </nav>
       </div>
-      <div class="header-nav-menu">
-        <div class="wrapper">
-          <nav class="main-nav">
-            <a href="folio.html">Portfolio</a>
-            <a href="comp.html">Compétences</a>
-          </nav>
-          <nav class="hide-nav">
-            <a href="#about">à propos</a>
-            <a href="#folio">mes projets</a>
-            <a href="#comp">mes compétences</a>
-          </nav>
+    </div>
+    <div class="header-content wrapper">
+      <div class="title">
+        <h1>Duclos Pierre</h1>
+      </div>
+      <div class="txt">
+        <p>junior front-end developer</p>
+        <p>Passionné par le développement web et le code</p>
+      </div>
+    </div>
+  </header>
+  <!-- fin du header -->
+  
+  <main>
+    <!-- about me -->
+    <section class="me wrapper" id="about">
+      <div class="about-me box-and-shadow">
+        <h2>A propos de moi</h2>
+        <div class="photo">
+          <img src="" alt="Une photo de Duclos Pierre">
+        </div>
+        <div class="about-txt">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, amet suscipit. Ad?</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quam aperiam autem omnis illum ea aliquid nam, harum officia nulla quo error quisquam sed inventore nisi tenetur qui veniam. Voluptas!</p>
+          <p>Lorem, ipsum.</p>
         </div>
       </div>
-      <div class="header-content wrapper">
-        <div class="title">
-          <h1>Duclos Pierre</h1>
-        </div>
-        <div class="txt">
-          <p>junior front-end developer</p>
-          <p>Passionné par le développement web et le code</p>
+    </section>
+    <!-- fin de about me -->
+    <!-- Portfolio -->
+    <section class="folio-bg" id="folio">
+      <div class="portfolio wrapper box-and-shadow">
+        <h2>Portfolio</h2>
+        <div class="folio-title">
+          <div class="web">
+            <h3>Web dev</h3>
+            <a href="folio.html#web" target="#web">Voir plus</a>
+          </div>
+          <div class="news">
+            <h3>newsletter</h3>
+            <a href="folio.html#news" target="#web">Voir plus</a>
+          </div>
         </div>
       </div>
-    </header>
-    <main>
-      <!-- about me -->
-      <section class="me wrapper" id="about">
-        <div class="about-me">
-          <h2>A propos de moi</h2>
-          <div class="photo">
-            <img src="" alt="Une photo de Duclos Pierre">
-          </div>
-          <div class="about-txt">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, amet suscipit. Ad?</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quam aperiam autem omnis illum ea aliquid nam, harum officia nulla quo error quisquam sed inventore nisi tenetur qui veniam. Voluptas!</p>
-            <p>Lorem, ipsum.</p>
-        </div>
-        </div>
-      </section>
-      <!-- Portfolio -->
-      <section class="folio-bg" id="folio">
-        <div class="portfolio wrapper">
-          <h2>Portfolio</h2>
-          <div class="folio-title">
-            <div class="web">
-              <h3>Web dev</h3>
-              <a href="folio.html#web" target="#web">Voir plus</a>
-            </div>
-            <div class="news">
-              <h3>newsletter</h3>
-              <a href="folio.html#news" target="#web">Voir plus</a>
-            </div>
-          </div>
-    
-        </div>
-      </section>
-      <section class="comp-bg" id="comp">
-        <div class="comp-content wrapper">
+    </section>
+    <!-- fin de Portfolio -->
+    <!-- compétences -->
+    <section class="comp-bg" id="comp">
+      <div class="comp-content wrapper box-and-shadow">
+        <div class="comp-title">
           <h2>Mes compétences</h2>
-          <a href="comp.html#css"><img src="media/img/logos/logocss100px.png" alt=""></a>
-          <a href="comp.html#sass"><img src="media/img/logos/logosass100px.png" alt=""></a>
-          <a href="comp.html#html"><img src="media/img/logos/logohtml100px.png" alt=""></a>
-          <a href="comp.html#wp"><img src="media/img/logos/logowp100px.png" alt=""></a>
-          <a href="comp.html#js"><img src="media/img/logos/logojs100px.png" alt=""></a>
-          <a href="comp.html#ts"><img src="media/img/logos/logots100px.png" alt=""></a>
-          <a href="comp.html#angular"><img src="media/img/logos/logoangular100px.png" alt=""></a>
         </div>
-      </section>
-    </main>
-  </div>
+        <a href="comp.html#css"><img src="media/img/logos/logocss100px.png" alt=""></a>
+        <a href="comp.html#sass"><img src="media/img/logos/logosass100px.png" alt=""></a>
+        <a href="comp.html#html"><img src="media/img/logos/logohtml100px.png" alt=""></a>
+        <a href="comp.html#wp"><img src="media/img/logos/logowp100px.png" alt=""></a>
+        <a href="comp.html#js"><img src="media/img/logos/logojs100px.png" alt=""></a>
+        <a href="comp.html#ts"><img src="media/img/logos/logots100px.png" alt=""></a>
+        <a href="comp.html#angular"><img src="media/img/logos/logoangular100px.png" alt=""></a>
+      </div>
+    </section>
+    <!-- fin compétences -->
+  </main>
+  
   <footer>
     
   </footer>
