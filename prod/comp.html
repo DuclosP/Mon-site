@@ -12,19 +12,30 @@
     <div >
     </div>
   </a>
+  
   <!-- Le header du site -->
-  <header class="header" id="header">
+  <header class="header anchors" id="header">
+    <!-- side nav  -->
+    <div class="side-bar">
+      <div class="logo">
+        <a href="index.html"><img src="media/img/mon-logo.png" alt="Logo Pierre Duclos"></a>
+      </div>
+      <nav class="side-nav">
+        <a href="#header" class="inner-main-nav">Welcome</a>
+        <a href="#anchor1" class="inner-main-nav">ça marche?</a>
+      </nav>
+    </div>
     <div class="header-nav-menu">
       <div class="wrapper">
-        <div class="logo">
-          <a href="index.html"><img src="media/img/mon-logo.png" alt="Logo Pierre Duclos"></a>
-        </div>
         <nav class="main-nav">
+          <a href="index.html" class="active">Home</a>
           <a href="folio.html">Portfolio</a>
-          <a href="comp.html" class="active">Compétences</a>
-          <!-- a placer dans une sidebar -->
-          <a href="#folio">Lien 2</a>
-          <a href="#comp">Lien 3</a>
+          <a href="comp.html">Compétences</a>
+        </nav>
+        <nav class="hide-nav">
+          <a href="#anchor1">à propos</a>
+          <a href="#anchor2">mes projets</a>
+          <a href="#anchor3">mes compétences</a>
         </nav>
       </div>
     </div>
@@ -33,17 +44,21 @@
         <h1>Duclos Pierre</h1>
       </div>
       <div class="txt">
-        <p>junior front-end developer</p>
-        <p>Passionné par le développement web et le code</p>
+        <p>Junior Front-end Developer</p>
+        <p>Passionné par le développement web, le code et les point virgule</p>
       </div>
     </div>
   </header>
+  <!-- fin du header -->
   <main>
-    
+    <div class="test anchors" id="anchor1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti sequi, ullam fugit voluptatem pariatur facere? Corporis iusto, ea odit, magni, vel quae sint aliquam aspernatur vero ratione officia nemo?
+    </div>
   </main>
+  
   <footer>
     
   </footer>
-  <script src="js/main.min.js"></script>
+  <script src="js/scroll.min.js"></script>
 </body>
 </html>

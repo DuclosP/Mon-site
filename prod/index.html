@@ -14,29 +14,30 @@
   </a>
   
   <!-- Le header du site -->
-  <header class="header" id="header">
+  <header class="header anchors" id="header">
     <!-- side nav  -->
     <div class="side-bar">
       <div class="logo">
         <a href="index.html"><img src="media/img/mon-logo.png" alt="Logo Pierre Duclos"></a>
       </div>
       <nav class="side-nav">
-        <a href="#header" class="inner-main-nav side-active">Welcome</a>
-        <a href="#about" class="inner-main-nav">à propos</a>
-        <a href="#folio" class="inner-main-nav">mes projets</a>
-        <a href="#comp" class="inner-main-nav">mes compétences</a>
+        <a href="#header" class="inner-main-nav">Welcome</a>
+        <a href="#anchor1" class="inner-main-nav">à propos</a>
+        <a href="#anchor2" class="inner-main-nav">mes projets</a>
+        <a href="#anchor3" class="inner-main-nav">mes compétences</a>
       </nav>
     </div>
     <div class="header-nav-menu">
       <div class="wrapper">
         <nav class="main-nav">
+          <a href="index.html" class="active">Home</a>
           <a href="folio.html">Portfolio</a>
           <a href="comp.html">Compétences</a>
         </nav>
         <nav class="hide-nav">
-          <a href="#about">à propos</a>
-          <a href="#folio">mes projets</a>
-          <a href="#comp">mes compétences</a>
+          <a href="#anchor1">à propos</a>
+          <a href="#anchor2">mes projets</a>
+          <a href="#anchor3">mes compétences</a>
         </nav>
       </div>
     </div>
@@ -45,16 +46,15 @@
         <h1>Duclos Pierre</h1>
       </div>
       <div class="txt">
-        <p>junior front-end developer</p>
-        <p>Passionné par le développement web et le code</p>
+        <p>Junior Front-end Developer</p>
+        <p>Passionné par le développement web, le code et les point virgule</p>
       </div>
     </div>
   </header>
   <!-- fin du header -->
-  
   <main>
     <!-- about me -->
-    <section class="me wrapper" id="about">
+    <section class="me wrapper anchors" id="anchor1">
       <div class="about-me box-and-shadow">
         <h2>A propos de moi</h2>
         <div class="photo">
@@ -72,24 +72,24 @@
     </section>
     <!-- fin de about me -->
     <!-- Portfolio -->
-    <section class="folio-bg" id="folio">
+    <section class="folio-bg anchors" id="anchor2">
       <div class="portfolio wrapper box-and-shadow">
         <h2>Portfolio</h2>
         <div class="folio-title">
           <div class="web">
             <h3>Web dev</h3>
-            <a href="folio.html#web" class="more">Voir plus</a>
+            <a href="folio.html#anchor1" class="more">Voir plus</a>
           </div>
           <div class="news">
-            <h3>newsletter</h3>
-            <a href="folio.html#news" class="more">Voir plus</a>
+            <h3>Newsletter</h3>
+            <a href="folio.html#anchor2" class="more">Voir plus</a>
           </div>
         </div>
       </div>
     </section>
     <!-- fin de Portfolio -->
     <!-- compétences -->
-    <section class="comp-bg" id="comp">
+    <section class="comp-bg anchors" id="anchor3">
       <div class="comp-content wrapper box-and-shadow">
         <div class="comp-title">
           <h2>Mes compétences</h2>
@@ -109,6 +109,6 @@
   <footer>
     
   </footer>
-  <script src="js/main.min.js"></script>
+  <script src="js/scroll.min.js"></script>
 </body>
 </html>

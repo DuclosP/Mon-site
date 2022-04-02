@@ -7,23 +7,35 @@
   <title>Duclos Pierre  - Junior Front End Dev</title>
 </head>
 <body class="folio">
-    <!-- to top button -->
-    <a href="#header" class="to-top">
-      <div >
-      </div>
-    </a>
+  <!-- to top button -->
+  <a href="#header" class="to-top">
+    <div >
+    </div>
+  </a>
   <!-- Le header du site -->
-  <header class="header" id="header">
+  <header class="header anchors" id="header">
+    <!-- side nav  -->
+    <div class="side-bar">
+      <div class="logo">
+        <a href="index.html"><img src="media/img/mon-logo.png" alt="Logo Pierre Duclos"></a>
+      </div>
+      <nav class="side-nav">
+        <a href="#header" class="inner-main-nav">Welcome</a>
+        <a href="#anchor1" class="inner-main-nav">Web dev</a>
+        <a href="#anchor2" class="inner-main-nav">Newsletters</a>
+      </nav>
+    </div>
     <div class="header-nav-menu">
       <div class="wrapper">
-        <div class="logo">
-          <a href="index.html"><img src="media/img/mon-logo.png" alt="Logo Pierre Duclos"></a>
-        </div>
         <nav class="main-nav">
+          <a href="index.html">Home</a>
           <a href="folio.html" class="active">Portfolio</a>
           <a href="comp.html">Compétences</a>
-          <a href="#">Lien 2</a>
-          <a href="#">Lien 3</a>
+        </nav>
+        <nav class="hide-nav">
+          <a href="#about">à propos</a>
+          <a href="#folio">mes projets</a>
+          <a href="#comp">mes compétences</a>
         </nav>
       </div>
     </div>
@@ -38,12 +50,12 @@
   </header>
   <main>
     <!-- Portfolio -->
-    <section class="portfolio wrapper spacing">
-      <div class="exo-copy">
-        <h3 id="web">Exo copie de site web</h3>
-      </div>    
-      <div class="exo-newsletter">
-        <h3 id="news">Exo copie de newsletter</h3>
+    <section class="portfolio">
+      <div class="exo-copy wrapper anchors" id="anchor1">
+        <h3>Exo copie de site web</h3>
+      </div>  
+      <div class="exo-newsletter wrapper anchors" id="anchor2">
+        <h3>Exo copie de newsletter</h3>  
       </div>
     </section>
   </main>
@@ -51,5 +63,6 @@
     
   </footer>
   <script src="js/modal.min.js"></script>
+  <script src="js/scroll.min.js"></script>
 </body>
 </html>
