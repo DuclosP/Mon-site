@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.min.css">
-  <title>Duclos Pierre  - Junior Front End Dev</title>
+  <title>Duclos Pierre - Compétences</title>
 </head>
-<body class="index">
+<body class="comp">
   <!-- to top button -->
   <a href="#header" class="to-top">
     <div >
@@ -14,7 +14,7 @@
   </a>
   
   <!-- Le header du site -->
-  <header class="header anchors" id="header">
+  <header class="header" id="header">
     <!-- side nav  -->
     <div class="side-bar">
       <div class="logo">
@@ -22,38 +22,113 @@
       </div>
       <nav class="side-nav">
         <a href="#header" class="inner-main-nav">Welcome</a>
-        <a href="#anchor1" class="inner-main-nav">ça marche?</a>
+        <a href="#anchor1" class="inner-main-nav">Languages</a>
+        <a href="#anchor2" class="inner-main-nav">Framework</a>
+        <a href="#anchor3" class="inner-main-nav">CMS</a>
       </nav>
     </div>
     <div class="header-nav-menu">
       <div class="wrapper">
         <nav class="main-nav">
-          <a href="index.html" class="active">Home</a>
+          <a href="index.html">Home</a>
           <a href="folio.html">Portfolio</a>
-          <a href="comp.html">Compétences</a>
+          <a href="comp.html" class="active">Compétences</a>
         </nav>
         <nav class="hide-nav">
-          <a href="#anchor1">à propos</a>
-          <a href="#anchor2">mes projets</a>
-          <a href="#anchor3">mes compétences</a>
+          <a href="#anchor1">Languages</a>
+          <a href="#anchor2">Framework</a>
+          <a href="#anchor3">CMS</a>
         </nav>
-      </div>
-    </div>
-    <div class="header-content wrapper">
-      <div class="title">
-        <h1>Duclos Pierre</h1>
-      </div>
-      <div class="txt">
-        <p>Junior Front-end Developer</p>
-        <p>Passionné par le développement web, le code et les point virgule</p>
       </div>
     </div>
   </header>
   <!-- fin du header -->
-  <main>
-    <div class="test anchors" id="anchor1">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti sequi, ullam fugit voluptatem pariatur facere? Corporis iusto, ea odit, magni, vel quae sint aliquam aspernatur vero ratione officia nemo?
-    </div>
+  <main class="wrapper">
+    <!-- titre -->
+    <section class="title-content wrapper anchors" id="title">
+      <div class="title">
+        <h1>Compétences</h1>
+      </div>
+      <div class="txt">
+        <p>Compétences acquisent lors de ma formation</p>
+      </div>
+    </section>
+    <!-- html, css, js  -->
+    <section class="languages anchors" id="anchor1">
+      <article class="html box-and-shadow">
+        <h2>HTML</h2>
+        <div class="txt">
+          <ul>
+            <li>Maîtrise du balisage sémantique en HTML</li>
+            <li>Le multi page</li>
+            <li>Création de formulaire</li>
+          </ul>
+        </div>
+      </article>
+      <article class="css box-and-shadow">
+        <h2>CSS</h2>
+        <div class="txt">
+          <ul>
+            <li>Maitrise des sélecteurs</li>
+            <li>Keyframe</li>
+            <li>Media queries</li>
+            <li>Sass</li>
+          </ul>
+        </div>
+      </article>
+      <article class="javascript box-and-shadow">
+        <h2>JS/typescript</h2>
+        <div class="txt">
+          <ul>
+            <li>Maitrise la manipulation de dom</li>
+            <li>Manipulation de tableaux</li>
+            <li>Manipulation de classes</li>
+            <li>Utilisation des events</li>
+            <li>XML HttpRequest</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+    <section class="framework anchors" id="anchor2">
+      <article class="angular box-and-shadow">
+        <h2>angular</h2>
+        <div class="txt">
+          <ul>
+            <li>Création d'un projet</li>
+            <li>Notion de Binding</li>
+            <li>Notion de Pipes</li>
+            <li>Notion de @Input / @Output</li>
+            <li>Notion de Services et Injection</li>
+            <li>Notion de Formulaires</li>
+            <li>Notion de Routing</li>
+          </ul>
+        </div>
+      </article>
+    </section>    
+    <section class="cms anchors" id="anchor3">
+      <article class="wordpress box-and-shadow">
+        <h2>wordpress</h2>
+        <div class="txt">
+          <ul>
+            <li>Installation et usilisation</li>
+            <li>Création de thème
+              <ul>
+                <li>Custom post type</li>
+                <li>Custom taxonomy</li>
+                <li>thème support</li>
+                <li>création de page</li>
+              </ul>
+            </li>
+            <li>Utilisation des plugins
+              <ul>
+                <li>contact form 7</li>
+                <li>advanced custom field</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
   </main>
   
   <footer>
